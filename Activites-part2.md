@@ -105,6 +105,3 @@ Que faudrait-il pouvoir faire dans cette fonction pour résoudre les problèmes 
 
 > fix #5 P2-3 réflexions sur create_activity_with_owner
 
-
-
-

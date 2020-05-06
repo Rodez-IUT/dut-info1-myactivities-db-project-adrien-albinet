@@ -11,7 +11,7 @@ BEGIN
                 calcul := calcul + AGE(reservation_recurrente.date_fin, reservation_recurrente.date_debut);
             END LOOP;
         ELSE
-            RAISE NOTICE 'La salle % n est pas valide',un_nom_de_salle
+            RAISE EXCEPTION 'La salle % n est pas valide',un_nom_de_salle
             USING ERRCODE='invalid_parameter_value';
             calcul := null;
         END IF;
